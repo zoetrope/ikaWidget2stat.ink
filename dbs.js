@@ -25,12 +25,14 @@ db.weapons = {
 	61:   'nzap89',                 // N-ZAP '89
 	70:   'prime',                  // Splattershot Pro
 	71:   'prime_collabo',          // Forge Splattershot Pro
+        72:   'prime_becchu',           // Kensa Splattershot Pro
 	80:   '96gal',                  // .96 Gal
 	81:   '96gal_deco',             // .96 Gal Deco
 	90:   'jetsweeper',             // Jet Squelcher
 	91:   'jetsweeper_custom',      // Custom Jet Squelcher
 	200:  'nova',                   // Luna Blaster
 	201:  'nova_neo',               // Luna Blaster Neo
+	202:  'nova_becchu',            // Kensa Luna Blaster
 	210:  'hotblaster',             // Blaster
 	211:  'hotblaster_custom',      // Custom Blaster
 	215:  'heroblaster_replica',    // Hero Blaster Replica
@@ -55,6 +57,7 @@ db.weapons = {
 	1015: 'heroroller_replica',     // Hero Roller Replica
 	1020: 'dynamo',                 // Dynamo Roller
 	1021: 'dynamo_tesla',           // Gold Dynamo Roller
+	1022: 'dynamo_becchu',          // Kensa Dynamo Roller
 	1030: 'variableroller',         // Flingza Roller
 	1031: 'variableroller_foil',    // Foil Flingza Roller
 	1100: 'pablo',                  // Inkbrush
@@ -84,6 +87,7 @@ db.weapons = {
 	3011: 'hissen_hue',             // Tri-Slosher Nouveau
 	3020: 'screwslosher',           // Sloshing Machine
 	3021: 'screwslosher_neo',       // Sloshing Machine Neo
+	3022: 'screwslosher_becchu',    // Kensa Sloshing Machie
 	3030: 'furo',                   // Bloblobber
 	3040: 'explosher',              // Explosher
 	4000: 'splatspinner',           // Mini Splatling
@@ -116,6 +120,7 @@ db.weapons = {
 }
 
 // Stage database
+// https://stat.ink/api-info/stage2?_lang_=en-US
 // https://app.splatoon2.nintendo.net/api/data/stages (needs auth)
 db.stages = {
 	0:    'battera',   // The Reef
@@ -140,6 +145,7 @@ db.stages = {
 	19:   'otoro',     // New Albacore Hotel
 	20:   'sumeshi',   // Wahoo World
 	21:   'anchovy',   // Ancho-V Games
+	22:   'mutsugoro', // Skipper Pavilion
 	9999: 'mystery',   // Shifty Station (Splatfest only)
 
 	// clearly the funniest way to go about doing this
